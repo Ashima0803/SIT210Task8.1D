@@ -23,7 +23,7 @@ def light_level():
         return lux #the value is returned
 
     except Exception as e:
-        print(f"Error: {str(e)}") #log if there is any error
+        print(f"Error: {str(e)}") #log if there is any error or exception
         return None
 
 if _name_ == "_main_": #script being read
